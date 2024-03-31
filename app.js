@@ -12,7 +12,7 @@ const MongoStore = require('connect-mongo');
 
 //Create express app
 const app = express();
-const Port = 8000 || process.env.Port;
+const PORT = 8000 || process.env.PORT;
 
 // Connect DB
 connectDB();
@@ -60,6 +60,6 @@ app.use('/', require('./server/routes/dashboard'));
         })
 
 //listining to port
-app.listen(Port,()=>{
-    console.log(`App listening On ${Port}`)
+app.listen(PORT,()=>{
+    console.log(`App listening On ${PORT}`)
 });
