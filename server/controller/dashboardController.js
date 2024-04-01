@@ -129,7 +129,7 @@ exports.dashboardSearch = async (req,res)=>{
         layout:'../views/layouts/dashboard'
       })
     } catch (error) {
-      console.log(error)
+      console.log(error) 
     }
 }
 
