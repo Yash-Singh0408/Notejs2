@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const dashboardController= require('../controller/dashboardcontroller');
+const dashboardController= require('../controller/dashboardController');
 const { isLoggedin } = require('../middleware/checkAuth')
 /**
  * Dashboard Route
